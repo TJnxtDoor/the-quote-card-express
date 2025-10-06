@@ -1,2 +1,9 @@
-.env
-node_modules/
+project/
+├── public/
+│   ├── images/
+│   │   └── your-image.jpg
+│   ├── css/
+│   └── js/
+├── views/
+├── app.js
+└── package.json

@@ -11,4 +11,6 @@ app.use(express.urlencoded({extended: false}));
 app.listen(port, () => {
     console.log(`Server is running http://localhost:${port}`);
     console.log("Press Ctrl+C to end this process.");
+app.use(express.static(path.join(__dirname, 'public'))); 
+  
 });
